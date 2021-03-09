@@ -1,0 +1,10 @@
+E:\Data\Projects\VisualStudio\SteamSSFN\bin\Release\SteamSSFN.exe.config
+E:\Data\Projects\VisualStudio\SteamSSFN\bin\Release\SteamSSFN.exe
+E:\Data\Projects\VisualStudio\SteamSSFN\bin\Release\SteamSSFN.pdb
+E:\Data\Projects\VisualStudio\SteamSSFN\obj\Release\SteamSSFN.csprojAssemblyReference.cache
+E:\Data\Projects\VisualStudio\SteamSSFN\obj\Release\SteamSSFN.Form1.resources
+E:\Data\Projects\VisualStudio\SteamSSFN\obj\Release\SteamSSFN.Properties.Resources.resources
+E:\Data\Projects\VisualStudio\SteamSSFN\obj\Release\SteamSSFN.csproj.GenerateResource.cache
+E:\Data\Projects\VisualStudio\SteamSSFN\obj\Release\SteamSSFN.csproj.CoreCompileInputs.cache
+E:\Data\Projects\VisualStudio\SteamSSFN\obj\Release\SteamSSFN.exe
+E:\Data\Projects\VisualStudio\SteamSSFN\obj\Release\SteamSSFN.pdb
