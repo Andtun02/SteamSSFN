@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qUQ6nvK6V77CfAvSIOuz2VGuqQK0u/yN8p5GEFoC0NAJLNe8RVyim7FEr+9vooZEJZEVTw52bK8tScguTm81LA==",
+  "success": true,
+  "projectFilePath": "E:\\Data\\Projects\\VisualStudio\\SteamSSFN-v2\\SteamSSFN-v2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andtun\\.nuget\\packages\\materialdesigncolors\\2.0.0\\materialdesigncolors.2.0.0.nupkg.sha512",
+    "C:\\Users\\Andtun\\.nuget\\packages\\materialdesignthemes\\4.0.0\\materialdesignthemes.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

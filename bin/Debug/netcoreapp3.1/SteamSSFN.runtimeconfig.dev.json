@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Andtun\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Andtun\\.nuget\\packages",
+      "E:\\Software\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+E:\Data\Projects\VisualStudio\SteamSSFN\obj\Debug\netcoreapp3.1\SteamSSFN.csprojAssemblyReference.cache
+E:\Data\Projects\VisualStudio\SteamSSFN\obj\Debug\netcoreapp3.1\SteamSSFN_MarkupCompile.cache
+E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN.csprojAssemblyReference.cache
+E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN_MarkupCompile.cache
