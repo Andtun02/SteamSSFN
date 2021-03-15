@@ -66,16 +66,20 @@
             <TextBox x:Name="SetSteamPath_IN" HorizontalAlignment="Left" Margin="87,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343" CaretBrush="#FFDFE4EA" 
                      materialDesign:TextFieldAssist.UnderlineBrush="#57606f" TextChanged="SetSteamPath_IN_CG"
                      />
+            <Label Content="Steam路径" HorizontalAlignment="Left" Margin="10,22,0,0" VerticalAlignment="Top" Width="72" Height="23" FontSize="13" FontWeight="Bold"/>
             <Button x:Name="SetSteamPath_Bu" HorizontalAlignment="Left" Margin="435,22,0,0" VerticalAlignment="Top" Height="23" Width="59" Background="#FF57606F" BorderBrush="#FF57606F" Click="SetSteamPath_Bu_Click" Cursor="Hand">
                 <materialDesign:PackIcon x:Name="e" Kind="FileMarker" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
-            <Label Content="Steam路径" HorizontalAlignment="Left" Margin="10,22,0,0" VerticalAlignment="Top" Width="72" Height="23" FontSize="13" FontWeight="Bold"/>
+            <Label Content="打开SSFN储存路径" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="118" Height="23" FontSize="13" FontWeight="Bold"/>
             <Grid x:Name="MessageCard" Margin="58,24,58,24" Visibility="Collapsed">
-                <materialDesign:Card HorizontalAlignment="Center" VerticalAlignment="Top" Height="114" Width="356" Margin="0,10,0,0">
+                <Button Content="已了解" HorizontalAlignment="Center" Margin="0,127,0,0" VerticalAlignment="Top" Height="29" Background="#FF57606F" BorderBrush="#FF57606F" Click="Button_Click"/>
+                <materialDesign:Card HorizontalAlignment="Center" VerticalAlignment="Top" Height="114" Width="368" Margin="0,10,0,0">
                     <Label x:Name="Label_1" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Height="95" Width="336" FontSize="14"/>
                 </materialDesign:Card>
-                <Button Content="已了解" HorizontalAlignment="Center" Margin="0,127,0,0" VerticalAlignment="Top" Height="29" Background="#FF57606F" BorderBrush="#FF57606F" Click="Button_Click"/>
             </Grid>
+            <Button x:Name="OpenSSFNPath_Button" HorizontalAlignment="Left" Margin="435,64,0,0" VerticalAlignment="Top" Height="23" Width="59" Background="#FF57606F" BorderBrush="#FF57606F" Click="OpenSSFNPath_Button_Click" Cursor="Hand">
+                <materialDesign:PackIcon x:Name="e1" Kind="BookOpen" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
 
         </Grid>
 

@@ -63,31 +63,7 @@ namespace SteamSSFN_v2
         /// <param name="Filename">下载后的存放地址</param>
         public static void DownloadFile(string URL, string filename)
         {
-            try
-            {
-                System.Net.HttpWebRequest Myrq = (System.Net.HttpWebRequest)System.Net.HttpWebRequest.Create(URL);
-                System.Net.HttpWebResponse myrp = (System.Net.HttpWebResponse)Myrq.GetResponse();
-                long totalBytes = myrp.ContentLength;
 
-                System.IO.Stream st = myrp.GetResponseStream();
-                System.IO.Stream so = new System.IO.FileStream(filename, System.IO.FileMode.Create);
-                long totalDownloadedByte = 0;
-                byte[] by = new byte[1024];
-                int osize = st.Read(by, 0, (int)by.Length);
-                while (osize > 0)
-                {
-                    totalDownloadedByte = osize + totalDownloadedByte;
-                    so.Write(by, 0, osize);
-
-                    osize = st.Read(by, 0, (int)by.Length);
-                }
-                so.Close();
-                st.Close();
-            }
-            catch (System.Exception)
-            {
-                throw;
-            }
         }
 
     }

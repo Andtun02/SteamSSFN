@@ -259,7 +259,14 @@ namespace SteamSSFN_v2
             ztLabel.Content = "Steam路径: " + Variable.steamPath;
             Config.Save("SteamPath", Variable.steamPath);
         }
-
+        
+        //打开ssfn存放文件夹
+        private void OpenSSFNPath_Button_Click(object sender, RoutedEventArgs e)
+        {
+            String path = Directory.GetCurrentDirectory() + @"\SteamSSFN";
+            MessageBox.Show(path);
+            System.Diagnostics.Process.Start("explorer.exe", path);
+        }
     }
 }
 

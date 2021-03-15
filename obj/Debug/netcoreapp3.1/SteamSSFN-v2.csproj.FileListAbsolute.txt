@@ -1,12 +1,9 @@
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\App.g.cs
-E:\Data\Projects\VisualStudio\SteamSSFN-v2\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
-E:\Data\Projects\VisualStudio\SteamSSFN-v2\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\MainWindow.baml
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN-v2.AssemblyInfoInputs.cache
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN-v2.AssemblyInfo.cs
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN-v2.csproj.CoreCompileInputs.cache
-E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN-v2.csproj.CopyComplete
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN-v2.genruntimeconfig.cache
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\App.baml
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\bin\Debug\netcoreapp3.1\SteamSSFN.exe
@@ -21,3 +18,5 @@ E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN_Mar
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN.g.resources
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN.dll
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN.pdb
+E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN-v2.csproj.Fody.CopyLocal.cache
+E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\SteamSSFN-v2.csprojAssemblyReference.cache

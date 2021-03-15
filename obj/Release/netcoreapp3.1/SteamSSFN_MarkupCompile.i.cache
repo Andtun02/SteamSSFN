@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Debug\netcoreapp3.1\
+E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\
 SteamSSFN
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\App.xaml
 11151548125
 
-835342961
+8941795915
 194-1003332916
 MainWindow.xaml;
 
-True
+False
 
