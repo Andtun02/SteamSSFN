@@ -55,15 +55,19 @@ namespace SteamSSFN_v2
 
 
         //通过http下载文件
-        //来自 https://www.cnblogs.com/yunfeifei/p/3842746.html
-        /// <summary>
-        /// 下载文件
-        /// </summary>
-        /// <param name="URL">下载文件地址</param>
-        /// <param name="Filename">下载后的存放地址</param>
-        public static void DownloadFile(string URL, string filename)
+        public static bool DownloadFile(string style, string filename)
         {
-
+            try
+            {
+                WebClient dw = new WebClient();
+                dw.DownloadFile(style + "/" + filename, Directory.GetCurrentDirectory() + "\\SteamSSFN\\" + filename);
+                return true;
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.ToString(), "异常: 下载出错");
+                return false;
+            }
         }
 
     }

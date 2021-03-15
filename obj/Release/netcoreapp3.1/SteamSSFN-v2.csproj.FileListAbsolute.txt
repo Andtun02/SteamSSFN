@@ -5,8 +5,6 @@ E:\Data\Projects\VisualStudio\SteamSSFN-v2\bin\Release\netcoreapp3.1\SteamSSFN.r
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\bin\Release\netcoreapp3.1\SteamSSFN.runtimeconfig.dev.json
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\bin\Release\netcoreapp3.1\SteamSSFN.dll
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\bin\Release\netcoreapp3.1\SteamSSFN.pdb
-E:\Data\Projects\VisualStudio\SteamSSFN-v2\bin\Release\netcoreapp3.1\MaterialDesignColors.dll
-E:\Data\Projects\VisualStudio\SteamSSFN-v2\bin\Release\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\MainWindow.g.cs
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\App.g.cs
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN_MarkupCompile.cache
@@ -17,7 +15,8 @@ E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN.g
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN-v2.AssemblyInfoInputs.cache
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN-v2.AssemblyInfo.cs
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN-v2.csproj.CoreCompileInputs.cache
-E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN-v2.csproj.CopyComplete
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN.dll
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN.pdb
 E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN-v2.genruntimeconfig.cache
+E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN-v2.csprojAssemblyReference.cache
+E:\Data\Projects\VisualStudio\SteamSSFN-v2\obj\Release\netcoreapp3.1\SteamSSFN-v2.csproj.Fody.CopyLocal.cache

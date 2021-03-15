@@ -132,6 +132,7 @@ namespace SteamSSFN_v2
             //禁止动画
             sureButton.IsEnabled = false;
             MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndicatorVisible(sureButton, true);
+            Loading_Card.Visibility = Visibility.Visible;
             if (mainInput.Text == "")
             {
                 MessageBox.Show("抱歉，请输入SSFN码后再次点击授权按钮！", "提示: ");
@@ -140,17 +141,63 @@ namespace SteamSSFN_v2
             {
                 //授权开始————————
                 //[本地授权]
-                LocalSSFNset(mainInput.Text);
+                if (LocalSSFNset(mainInput.Text))
+                {
+                    //本地授权成功
+                    ztLabel.Content = "状态: 本地授权成功!";
+                }
+                else
+                {
+                    //本地失败——云授权
+                    ztLabel.Content = "状态: 云端下载开始！";
+                    if (WebSSFNset(Variable.httpSource))
+                    {
+                        ztLabel.Content = "状态: 云端下载成功！";
+                        if (LocalSSFNset(mainInput.Text))
+                        {
+                            ztLabel.Content = "状态: 云端授权成功！";
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("授权失败！\n1.您可能无法连接云端\n2.服务器上不存在此SSFN", "提示: ");
+                    }
+                }
             }
             
 
             //恢复动画
             sureButton.IsEnabled = true;
             MaterialDesignThemes.Wpf.ButtonProgressAssist.SetIsIndicatorVisible(sureButton, false);
+            Loading_Card.Visibility = Visibility.Collapsed;
+        }
+
+        //云端授权
+        private bool WebSSFNset(string style)
+        {
+            String x;
+            if (style == "0")
+            {
+                x = Variable.gitee_Http;
+            }
+            else
+            {
+                x = Variable.gitee_Http;
+            }
+
+            if (Net.DownloadFile(x, mainInput.Text))
+            {
+                //授权成功
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         //本地授权
-        private bool LocalSSFNset(String SSFN)
+        private bool LocalSSFNset(string SSFN)
         {
             if (File.Exists("./SteamSSFN/"+SSFN) == true)
             {
@@ -264,7 +311,6 @@ namespace SteamSSFN_v2
         private void OpenSSFNPath_Button_Click(object sender, RoutedEventArgs e)
         {
             String path = Directory.GetCurrentDirectory() + @"\SteamSSFN";
-            MessageBox.Show(path);
             System.Diagnostics.Process.Start("explorer.exe", path);
         }
     }
